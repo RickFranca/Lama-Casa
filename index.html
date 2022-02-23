@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project Title</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-street">
+        <li class="text">Street</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-courtyard_01">
+        <li class="text">Courtyard_01</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-wine-house">
+        <li class="text">Wine House</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-kitchen">
+        <li class="text">Kitchen</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-storage-place_02">
+        <li class="text">Storage place_02</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-porch_01">
+        <li class="text">Porch_01</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-food-smoker">
+        <li class="text">food smoker</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-entrance_02">
+        <li class="text">Entrance_02</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-courtyard_02">
+        <li class="text">Courtyard_02</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-porch_02">
+        <li class="text">Porch_02</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-wood-oven">
+        <li class="text">wood oven</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-winemaking-place">
+        <li class="text">Winemaking place</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-storage-place_03">
+        <li class="text">Storage place_03</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-storage-place_01">
+        <li class="text">Storage place_01</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-plantation-area_02">
+        <li class="text">Plantation area_02</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-living-room">
+        <li class="text">Living room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-bedroom_03">
+        <li class="text">Bedroom_03</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-bedroom_02">
+        <li class="text">Bedroom_02</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-bedroom_01">
+        <li class="text">Bedroom_01</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-dining-room">
+        <li class="text">Dining room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-bathroom">
+        <li class="text">Bathroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-plantation-area_01">
+        <li class="text">Plantation area_01</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
